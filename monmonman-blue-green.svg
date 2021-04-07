@@ -1,0 +1,62 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg style="background-color:rgba(255,255,255,1);border:thin solid black;float:left;"
+     width="4in" height="6in"
+     viewBox="250 0 450 1020"
+     xmlns="http://www.w3.org/2000/svg">
+  <title>Monmon Man</title>
+  <desc>SAIL III display plot file</desc>
+  <path desc="seam down the middle" stroke-width="1" stroke="lightblue" d="M484,88 v577"/>
+  <g stroke="black" stroke-width="8">
+
+  <g transform="translate(600,150)rotate(-45)">
+  <path desc="weight" fill="lightred" stroke="red"
+        d="M60 40
+          h  60          v -20          h  20          v  50          h -20          v -20          h -60
+          h -60          v  20          h -20          v -50          h  20          v  20          Z " />
+  </g>
+  <g transform="translate(480,130)rotate(45)">
+  <path desc="weight" fill="lightred" stroke="red"  transform="translate(-185,100)"
+        d="M60 40
+          h  60          v -20          h  20          v  50          h -20          v -20          h -60
+          h -60          v  20          h -20          v -50          h  20          v  20          Z " />
+  </g>
+
+    
+  <path
+      desc="down left side" fill="lightblue" stroke="blue"
+      d="
+         M484 88
+         L468 88 L436 104 L404 136 L388 168 L388 200 L404 232 L436 264 L452 312 L436 344 L404 376 L308 376
+         L260 344 L244 248 L292 184 L308 184 L340 152 L340 136 L324 136 L324 120 L308 120 L308 104 L292 104 L260 136
+         L260 152 L196 232 L212 376 L276 424 L324 440 L388 600 L308 792 L340 984 L308 1000 L260 1000 L260 1016 L388 1016
+         L388 968 L356 792 L484 664"/>
+  
+  <path desc="down right side" fill="lightgreen" stroke="green"
+        d="M 484  88
+           L 500  88 L 532 104 L 564 136 L 580 168 L 580 200 L 564 232
+           L 532 264 L 516 312 L 532 344 L 564 376 L 660 376 L 708 344
+           L 724 248 L 676 184 L 660 184 L 628 152 L 628 136 L 644 136
+           L 644 120 L 660 120 L 660 104 L 676 104 L 708 136 L 708 152 L 772 232 L 756 376 L 692 424
+           L 644 440 L 580 600 L 660 792 L 628 984 L 660 1000 L 708 1000 L 708 1016 L 580 1016 L 580 968 L 612 792
+           L 484 664"/>
+
+  <path stroke="blue" fill="cyan" desc="face"
+      d="M 404 168 L 420 136 L 452 104 L 468 104
+         M 468 120 L 452 120 L 436 136 L 436 152
+         M 452 152 L 468 120
+         M 484 104 L 500 104 L 532 136 L 548 168 M 516 152 L 516 136 L 500 120 L 484 120 L 500 152
+         M 484 152 L 468 104
+         M 452 168 L 436 168 L 420 184 L 436 200 L 452 200 L 468 184 L 452 168
+         M 516 168 L 532 168 L 548 184 L 532 200 L 516 200 L 500 184 L 516 168
+         M 484 200 L 468 216 L 500 216 L 484 200
+         M 436 232 L 468 248 L 500 248 L 532 232"/>
+  
+  <path fill="yellow" desc="chest"
+        d="M 388 424 L 596 424 L 532 552 L 436 552 L 388 424 M 388 584
+           " />
+
+  
+  </g>
+</svg>
